@@ -27,7 +27,7 @@ public class ATM {
                 System.out.println("Goodbye!");
                 break;
             } else {
-                System.out.println("Invalid choice.\n");
+                System.out.println("Invalid choice. Try again\n");
             }
         }
     }
