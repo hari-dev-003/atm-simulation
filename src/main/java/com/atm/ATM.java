@@ -30,6 +30,7 @@ public class ATM {
                 System.out.println("Invalid choice. Try again\n");
             }
         }
+        scanner.close();
     }
 
     private void loginProcess() {
@@ -111,4 +112,3 @@ public class ATM {
         }
     }
 }
-

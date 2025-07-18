@@ -8,10 +8,9 @@ public class AuthService {
 
     // Populate with demo accounts; in real apps, use a db or file
     public AuthService() {
-        
-        userMap.put("user1", new Account("101", "Hari", "root", 5000));
-        
-        userMap.put("user2", new Account("102", "Dev", "root", 3000));
+        // Using the actual username as the key for the map makes the login more intuitive.
+        userMap.put("Hari", new Account("101", "Hari", "root", 5000));
+        userMap.put("Dev", new Account("102", "Dev", "root", 3000));
     }
 
     public Account login(String username, String password) {
